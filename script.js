@@ -3,7 +3,7 @@ function insert_Row() {
     const table = document.getElementById('sampleTable');
     
     // Create a new row element
-    const newRow = table.insertRow(1); // Insert at index 1 to add to the top, below the header row
+    const newRow = table.insertRow(0); // Insert at index 1 to add to the top, below the header row
     
     // Create and append new cells to the row
     const cell1 = newRow.insertCell(0);
